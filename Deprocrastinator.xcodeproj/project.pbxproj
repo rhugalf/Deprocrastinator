@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F097801A19F23163000B6BE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F097801919F23163000B6BE4 /* main.m */; };
+		F097801D19F23163000B6BE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F097801C19F23163000B6BE4 /* AppDelegate.m */; };
+		F097802019F23163000B6BE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F097801F19F23163000B6BE4 /* ViewController.m */; };
+		F097802319F23163000B6BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F097802119F23163000B6BE4 /* Main.storyboard */; };
+		F097802519F23163000B6BE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F097802419F23163000B6BE4 /* Images.xcassets */; };
+		F097802819F23163000B6BE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F097802619F23163000B6BE4 /* LaunchScreen.xib */; };
+		F097803419F23163000B6BE4 /* DeprocrastinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F097803319F23163000B6BE4 /* DeprocrastinatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F097802E19F23163000B6BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F097800C19F23163000B6BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F097801319F23163000B6BE4;
+			remoteInfo = Deprocrastinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F097801419F23163000B6BE4 /* Deprocrastinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deprocrastinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F097801819F23163000B6BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F097801919F23163000B6BE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F097801B19F23163000B6BE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F097801C19F23163000B6BE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F097801E19F23163000B6BE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F097801F19F23163000B6BE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F097802219F23163000B6BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F097802419F23163000B6BE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F097802719F23163000B6BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F097802D19F23163000B6BE4 /* DeprocrastinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeprocrastinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F097803219F23163000B6BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F097803319F23163000B6BE4 /* DeprocrastinatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeprocrastinatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F097801119F23163000B6BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F097802A19F23163000B6BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F097800B19F23163000B6BE4 = {
+			isa = PBXGroup;
+			children = (
+				F097801619F23163000B6BE4 /* Deprocrastinator */,
+				F097803019F23163000B6BE4 /* DeprocrastinatorTests */,
+				F097801519F23163000B6BE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F097801519F23163000B6BE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F097801419F23163000B6BE4 /* Deprocrastinator.app */,
+				F097802D19F23163000B6BE4 /* DeprocrastinatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F097801619F23163000B6BE4 /* Deprocrastinator */ = {
+			isa = PBXGroup;
+			children = (
+				F097801B19F23163000B6BE4 /* AppDelegate.h */,
+				F097801C19F23163000B6BE4 /* AppDelegate.m */,
+				F097801E19F23163000B6BE4 /* ViewController.h */,
+				F097801F19F23163000B6BE4 /* ViewController.m */,
+				F097802119F23163000B6BE4 /* Main.storyboard */,
+				F097802419F23163000B6BE4 /* Images.xcassets */,
+				F097802619F23163000B6BE4 /* LaunchScreen.xib */,
+				F097801719F23163000B6BE4 /* Supporting Files */,
+			);
+			path = Deprocrastinator;
+			sourceTree = "<group>";
+		};
+		F097801719F23163000B6BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F097801819F23163000B6BE4 /* Info.plist */,
+				F097801919F23163000B6BE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F097803019F23163000B6BE4 /* DeprocrastinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F097803319F23163000B6BE4 /* DeprocrastinatorTests.m */,
+				F097803119F23163000B6BE4 /* Supporting Files */,
+			);
+			path = DeprocrastinatorTests;
+			sourceTree = "<group>";
+		};
+		F097803119F23163000B6BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F097803219F23163000B6BE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F097801319F23163000B6BE4 /* Deprocrastinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F097803719F23163000B6BE4 /* Build configuration list for PBXNativeTarget "Deprocrastinator" */;
+			buildPhases = (
+				F097801019F23163000B6BE4 /* Sources */,
+				F097801119F23163000B6BE4 /* Frameworks */,
+				F097801219F23163000B6BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deprocrastinator;
+			productName = Deprocrastinator;
+			productReference = F097801419F23163000B6BE4 /* Deprocrastinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F097802C19F23163000B6BE4 /* DeprocrastinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F097803A19F23163000B6BE4 /* Build configuration list for PBXNativeTarget "DeprocrastinatorTests" */;
+			buildPhases = (
+				F097802919F23163000B6BE4 /* Sources */,
+				F097802A19F23163000B6BE4 /* Frameworks */,
+				F097802B19F23163000B6BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F097802F19F23163000B6BE4 /* PBXTargetDependency */,
+			);
+			name = DeprocrastinatorTests;
+			productName = DeprocrastinatorTests;
+			productReference = F097802D19F23163000B6BE4 /* DeprocrastinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F097800C19F23163000B6BE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Hugo;
+				TargetAttributes = {
+					F097801319F23163000B6BE4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F097802C19F23163000B6BE4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F097801319F23163000B6BE4;
+					};
+				};
+			};
+			buildConfigurationList = F097800F19F23163000B6BE4 /* Build configuration list for PBXProject "Deprocrastinator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F097800B19F23163000B6BE4;
+			productRefGroup = F097801519F23163000B6BE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F097801319F23163000B6BE4 /* Deprocrastinator */,
+				F097802C19F23163000B6BE4 /* DeprocrastinatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F097801219F23163000B6BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F097802319F23163000B6BE4 /* Main.storyboard in Resources */,
+				F097802819F23163000B6BE4 /* LaunchScreen.xib in Resources */,
+				F097802519F23163000B6BE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F097802B19F23163000B6BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F097801019F23163000B6BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F097802019F23163000B6BE4 /* ViewController.m in Sources */,
+				F097801D19F23163000B6BE4 /* AppDelegate.m in Sources */,
+				F097801A19F23163000B6BE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F097802919F23163000B6BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F097803419F23163000B6BE4 /* DeprocrastinatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F097802F19F23163000B6BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F097801319F23163000B6BE4 /* Deprocrastinator */;
+			targetProxy = F097802E19F23163000B6BE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F097802119F23163000B6BE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F097802219F23163000B6BE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F097802619F23163000B6BE4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F097802719F23163000B6BE4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F097803519F23163000B6BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F097803619F23163000B6BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F097803819F23163000B6BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Deprocrastinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F097803919F23163000B6BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Deprocrastinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F097803B19F23163000B6BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeprocrastinatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deprocrastinator.app/Deprocrastinator";
+			};
+			name = Debug;
+		};
+		F097803C19F23163000B6BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeprocrastinatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deprocrastinator.app/Deprocrastinator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F097800F19F23163000B6BE4 /* Build configuration list for PBXProject "Deprocrastinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F097803519F23163000B6BE4 /* Debug */,
+				F097803619F23163000B6BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F097803719F23163000B6BE4 /* Build configuration list for PBXNativeTarget "Deprocrastinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F097803819F23163000B6BE4 /* Debug */,
+				F097803919F23163000B6BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F097803A19F23163000B6BE4 /* Build configuration list for PBXNativeTarget "DeprocrastinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F097803B19F23163000B6BE4 /* Debug */,
+				F097803C19F23163000B6BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F097800C19F23163000B6BE4 /* Project object */;
+}
